@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kauneushoitola Kielo | Kampaamo ja hoitola Helsingissä</title>
+  <meta name="description" content="Kauneushoitola Kielo on kampaamo ja hoitola Punavuoressa. Leikkaukset, värjäykset, kynnet, jalkahoito, kasvohoidot, ripset ja kulmat sekä varausohjeet.">
+  <meta name="theme-color" content="#f3eee6">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#sisalto">Siirry sisältöön</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#etusivu">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M16 28c0-7 1-11 8-14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M16 28c0-8-1-12-8-14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <circle cx="24" cy="12" r="2.1" fill="none" stroke="currentColor" stroke-width="1.3"/>
+          <circle cx="16.5" cy="8.5" r="1.8" fill="none" stroke="currentColor" stroke-width="1.3"/>
+          <circle cx="8.5" cy="12.5" r="2" fill="none" stroke="currentColor" stroke-width="1.3"/>
+        </svg>
+        <span class="logo-text">
+          <strong>Kielo</strong>
+          <small>Kauneushoitola</small>
+        </span>
+      </a>
+      <nav id="valikko" class="nav-panel" aria-label="Päävalikko">
+        <a href="#palvelut">Palvelut</a>
+        <a href="#hinnasto">Hinnasto</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#varaus">Varausohjeet</a>
+        <a href="#sijainti">Sijainti</a>
+        <a href="#yhteystiedot">Yhteystiedot</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="#varaus"><span class="cta-long">Varaa aika</span><span class="cta-short">Varaa</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="valikko">
+        <span class="sr-only">Avaa valikko</span>
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="sisalto">
+    <section class="hero" id="etusivu">
+      <div class="hero-copy">
+        <p class="eyebrow">Kampaamo ja kauneushoitola · Punavuori</p>
+        <h1>Kauneudenhoitoa <em>ilman kiirettä.</em></h1>
+        <p class="today">Auki ajanvarauksella</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#varaus">Varaa aika</a>
+          <a class="btn btn-ghost" href="#hinnasto">Katso hinnasto</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="images/kielo-hero.jpg" width="1600" height="900" alt="Vaalea hoitohuone, jossa on kangastuoli, pyöreä peili ja maljakko kielonkukkia." fetchpriority="high">
+      </div>
+    </section>
+
+    <section class="facts" aria-label="Lyhyesti">
+      <ul class="wrap facts-grid">
+        <li><strong>Varaa aika</strong></li>
+        <li><strong>Saat varausvahvistuksen sähköpostiin</strong></li>
+        <li><strong>Tule nauttimaan</strong></li>
+        <li><strong>Peruutus 24 tuntia ennen</strong><span>Myöhemmin perutusta ajasta veloitamme puolet hinnasta.</span></li>
+      </ul>
+    </section>
+
+    <section class="section" id="palvelut">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index-label">01 — Palvelut</p>
+          <p class="lede">Jokaisesta käynnistä lyhyesti. Kestot ja hinnat ovat <a href="#hinnasto">hinnastossa</a>.</p>
+        </header>
+
+        <article class="service-group">
+          <div class="service-layout">
+            <div class="service-intro">
+              <p class="index-label">Hiukset</p>
+              <h3>Kampaamo</h3>
+              <p>Leikkaukset, kampaukset, värjäykset ja hiuspohjan hoito.</p>
+            </div>
+            <ul class="service-list">
+              <li class="service-item">
+                <div>
+                  <h3>Lyhyet hiukset</h3>
+                  <p>Pesu ja leikkaus hiusten pituuden mukaan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="lyhyet-hiukset">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Pitkät hiukset</h3>
+                  <p>Pesu ja leikkaus hiusten pituuden mukaan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="pitkat-hiukset">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Miesten leikkaus</h3>
+                  <p>Siisti leikkaus ja viimeistely.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="miesten-leikkaus">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Lasten leikkaus</h3>
+                  <p>Alle 12-vuotiaille, omaan tahtiin.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="lasten-leikkaus">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Pesu ja föönaus</h3>
+                  <p>Puhdas hius ja haluamasi muotoilu.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="pesu-foonaus">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Juhlakampaus</h3>
+                  <p>Kampaus juhlaan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="juhlakampaus">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Tyvivärjäys</h3>
+                  <p>Tyvi omaan sävyyn tai uuteen suuntaan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="tyvivarjays">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Koko pään värjäys</h3>
+                  <p>Tasainen väri tyvestä latvoihin.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="koko-paa">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Raidat</h3>
+                  <p>Osa hiuksista vaalennetaan raidoiksi.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="raidat">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Balayage</h3>
+                  <p>Sävyt maalataan hiukseen pehmeinä siirtyminä.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="balayage">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Sävytys</h3>
+                  <p>Kiilto ja sävyn kirkastus ilman pysyvää väriä.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="savytys">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Hiuspohjan hoito</h3>
+                  <p>Rauhoittava tai puhdistava hoito hiuspohjalle.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="hiuspohja">Varaa</a></div>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-group">
+          <div class="service-layout">
+            <div class="service-intro">
+              <p class="index-label">Kynnet</p>
+              <h3>Kädet</h3>
+              <p>Manikyyri, geelilakkaus ja rakennekynnet.</p>
+            </div>
+            <ul class="service-list">
+              <li class="service-item">
+                <div>
+                  <h3>Manikyyri</h3>
+                  <p>Kynnet muotoillaan, kynsinauhat siistitään ja kynnet lakataan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="manikyyri">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Geelilakkaus</h3>
+                  <p>Kestävä väri, joka pysyy siistinä.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="geelilakkaus">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Rakennekynnet</h3>
+                  <p>Kynsiä pidennetään ja vahvistetaan geelillä.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="rakennekynnet">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Kynsien huolto</h3>
+                  <p>Aiempi geelirakenne siistitään ja väri uusitaan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="kynsien-huolto">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Kynnen korjaus</h3>
+                  <p>Yksi lohjennut tai irronnut kynsi korjataan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="kynnen-korjaus">Varaa</a></div>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-group">
+          <div class="service-layout">
+            <div class="service-intro">
+              <p class="index-label">Jalat</p>
+              <h3>Pedikyyri ja jalkahoito</h3>
+            </div>
+            <ul class="service-list">
+              <li class="service-item">
+                <div>
+                  <h3>Pedikyyri</h3>
+                  <p>Varpaankynnet muotoillaan, kynsinauhat siistitään ja kynnet lakataan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="pedikyyri">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Jalkahoito</h3>
+                  <p>Kynsien ja kovettumien hoito, raspaus ja voide.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="jalkahoito">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Geelilakkaus varpaisiin</h3>
+                  <p>Varpaisiin laitetaan geelilakka.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="geelilakkaus-varpaat">Varaa</a></div>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-group">
+          <div class="service-layout">
+            <div class="service-intro">
+              <p class="index-label">Iho</p>
+              <h3>Kasvot, ripset ja kulmat</h3>
+              <p>Kulmien ja ripsien muotoilu, värjäys ja pidennykset.</p>
+            </div>
+            <ul class="service-list">
+              <li class="service-item">
+                <div>
+                  <h3>Peruskasvohoito</h3>
+                  <p>Puhdistus, kuorinta, naamio ja hieronta ihotyypin mukaan.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="peruskasvohoito">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Syväpuhdistava kasvohoito</h3>
+                  <p>Tukkeutuneelle ja epäpuhtaalle iholle.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="syvapuhdistava">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Anti-age kasvohoito</h3>
+                  <p>Kiinteyttävä hoito ja naamio aikuiselle iholle.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="anti-age">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Kulmien muotoilu</h3>
+                  <p>Siisti muoto.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="kulmien-muotoilu">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Kulmien värjäys</h3>
+                  <p>Kulmakarvat sävytetään tummemmiksi.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="kulmien-varjays">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Kulmien muotoilu ja värjäys</h3>
+                  <p>Kulmat siistitään ja sävytetään samalla kerralla.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="kulmien-muotoilu-varjays">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Kulmien laminointi</h3>
+                  <p>Kulmat kohottuvat ja näyttävät tuuheammilta.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="kulmien-laminointi">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Ripsien värjäys</h3>
+                  <p>Omat ripset sävytetään tummemmiksi.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="ripsien-varjays">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Ripsien kestotaivutus</h3>
+                  <p>Omat ripset taivutetaan ylöspäin.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="kestotaivutus">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Klassinen ripsienpidennys</h3>
+                  <p>Jokaiseen omaan ripseen kiinnitetään yksi kuitu, ja lopputulos jää luonnolliseksi.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="klassinen-pidennys">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Volyymiripset</h3>
+                  <p>Jokaiseen omaan ripseen kiinnitetään useampi ohut kuitu, ja katseesta tulee tuuheampi.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="volyymiripset">Varaa</a></div>
+              </li>
+              <li class="service-item">
+                <div>
+                  <h3>Ripsien huolto</h3>
+                  <p>Aiempiin pidennyksiin täydennetään uudet kuidut.</p>
+                </div>
+                <div class="service-meta"><a href="#varaus" data-service="ripsien-huolto">Varaa</a></div>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="hinnasto">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index-label">02 — Hinnasto</p>
+          <h2>Selkeä hinnasto.</h2>
+          <p class="lede">Esimerkkihinnat sisältävät arvonlisäveron. Värjäyksen, balayagen ja rakennekynsien lopullinen hinta riippuu työn laajuudesta. Vahvistamme sen varauksen yhteydessä.</p>
+        </header>
+        <div class="filters" role="radiogroup" aria-label="Rajaa hinnastoa">
+          <label class="filter"><input type="radio" name="ryhma" id="ryhma-kaikki" checked> Kaikki</label>
+          <label class="filter"><input type="radio" name="ryhma" id="ryhma-hiukset"> Hiukset</label>
+          <label class="filter"><input type="radio" name="ryhma" id="ryhma-kynnet"> Kynnet</label>
+          <label class="filter"><input type="radio" name="ryhma" id="ryhma-jalat"> Jalat</label>
+          <label class="filter"><input type="radio" name="ryhma" id="ryhma-kasvot"> Kasvot, ripset ja kulmat</label>
+        </div>
+
+        <div class="price-group" data-cat="hiukset">
+          <h3>Hiukset</h3>
+          <table class="prices">
+            <thead>
+              <tr><th>Palvelu</th><th>Kesto</th><th>Hinta</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Lyhyet hiukset</th><td>45 min</td><td>64 €</td></tr>
+              <tr><th scope="row">Pitkät hiukset</th><td>45 min</td><td>64 €</td></tr>
+              <tr><th scope="row">Miesten leikkaus</th><td>30 min</td><td>39 €</td></tr>
+              <tr><th scope="row">Lasten leikkaus</th><td>30 min</td><td>29 €</td></tr>
+              <tr><th scope="row">Pesu ja föönaus</th><td>30 min</td><td>36 €</td></tr>
+              <tr><th scope="row">Juhlakampaus</th><td>60 min</td><td>78 €</td></tr>
+              <tr><th scope="row">Tyvivärjäys</th><td>90 min</td><td>86 €</td></tr>
+              <tr><th scope="row">Koko pään värjäys</th><td>120 min</td><td>112 €</td></tr>
+              <tr><th scope="row">Raidat</th><td>alk. 150 min</td><td>alk. 148 €</td></tr>
+              <tr><th scope="row">Balayage</th><td>alk. 180 min</td><td>alk. 178 €</td></tr>
+              <tr><th scope="row">Sävytys</th><td>45 min</td><td>49 €</td></tr>
+              <tr><th scope="row">Hiuspohjan hoito</th><td>45 min</td><td>58 €</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-group" data-cat="kynnet">
+          <h3>Kynnet</h3>
+          <table class="prices">
+            <thead>
+              <tr><th>Palvelu</th><th>Kesto</th><th>Hinta</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Manikyyri</th><td>45 min</td><td>45 €</td></tr>
+              <tr><th scope="row">Geelilakkaus</th><td>60 min</td><td>59 €</td></tr>
+              <tr><th scope="row">Rakennekynnet</th><td>alk. 90 min</td><td>alk. 92 €</td></tr>
+              <tr><th scope="row">Kynsien huolto</th><td>75 min</td><td>69 €</td></tr>
+              <tr><th scope="row">Kynnen korjaus</th><td>20 min</td><td>16 €</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-group" data-cat="jalat">
+          <h3>Jalat</h3>
+          <table class="prices">
+            <thead>
+              <tr><th>Palvelu</th><th>Kesto</th><th>Hinta</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Pedikyyri</th><td>60 min</td><td>56 €</td></tr>
+              <tr><th scope="row">Jalkahoito</th><td>75 min</td><td>72 €</td></tr>
+              <tr><th scope="row">Geelilakkaus varpaisiin</th><td>45 min</td><td>49 €</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-group" data-cat="kasvot">
+          <h3>Kasvot, ripset ja kulmat</h3>
+          <table class="prices">
+            <thead>
+              <tr><th>Palvelu</th><th>Kesto</th><th>Hinta</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Peruskasvohoito</th><td>60 min</td><td>82 €</td></tr>
+              <tr><th scope="row">Syväpuhdistava kasvohoito</th><td>75 min</td><td>98 €</td></tr>
+              <tr><th scope="row">Anti-age kasvohoito</th><td>75 min</td><td>118 €</td></tr>
+              <tr><th scope="row">Kulmien muotoilu</th><td>20 min</td><td>24 €</td></tr>
+              <tr><th scope="row">Kulmien värjäys</th><td>15 min</td><td>20 €</td></tr>
+              <tr><th scope="row">Kulmien muotoilu ja värjäys</th><td>30 min</td><td>38 €</td></tr>
+              <tr><th scope="row">Kulmien laminointi</th><td>50 min</td><td>62 €</td></tr>
+              <tr><th scope="row">Ripsien värjäys</th><td>20 min</td><td>24 €</td></tr>
+              <tr><th scope="row">Ripsien kestotaivutus</th><td>60 min</td><td>72 €</td></tr>
+              <tr><th scope="row">Klassinen ripsienpidennys</th><td>90 min</td><td>98 €</td></tr>
+              <tr><th scope="row">Volyymiripset</th><td>120 min</td><td>128 €</td></tr>
+              <tr><th scope="row">Ripsien huolto</th><td>60 min</td><td>68 €</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Maksu hoitolassa kortilla, MobilePaylla tai käteisellä. Lahjakortteja myynnissä paikan päällä.</p>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index-label">03 — Portfolio</p>
+          <h2>Miltä työ näyttää.</h2>
+          <p class="lede">Havainnekuvia hoitolan tyylistä: pehmeä väri, tarkka leikkaus, siistit kynnet ja rauhalliset hoidot. Avaa kuva suuremmaksi.</p>
+        </header>
+        <div class="gallery">
+          <a class="shot" href="images/kielo-balayage.jpg" data-caption="Balayage, hunajan sävyt">
+            <img src="images/kielo-balayage.jpg" width="900" height="1200" alt="Pitkät hunajansävyiset balayage-hiukset takaa kuvattuna." loading="lazy">
+            <span>Balayage <small>Hunajan sävyt</small></span>
+          </a>
+          <a class="shot" href="images/kielo-leikkaus.jpg" data-caption="Polkkatukka">
+            <img src="images/kielo-leikkaus.jpg" width="900" height="1200" alt="Tasainen kastanjanruskea polkkatukka takaa kuvattuna." loading="lazy">
+            <span>Leikkaus <small>Polkka</small></span>
+          </a>
+          <a class="shot" href="images/kielo-kasvot.jpg" data-caption="Peruskasvohoito">
+            <img src="images/kielo-kasvot.jpg" width="900" height="1200" alt="Kasvohoito, jossa asiakas makaa pyyhe päässä ja iholle levitetään voidetta." loading="lazy">
+            <span>Kasvohoito <small>Perushoito</small></span>
+          </a>
+          <a class="shot" href="images/kielo-varitys.jpg" data-caption="Värjäys">
+            <img src="images/kielo-varitys.jpg" width="900" height="1200" alt="Kampaaja levittää väriä pitkiin hiuksiin siveltimellä." loading="lazy">
+            <span>Värjäys <small>Sävy siveltimellä</small></span>
+          </a>
+          <a class="shot square" href="images/kielo-kynnet.jpg" data-caption="Manikyyri, nude-geelilakkaus">
+            <img src="images/kielo-kynnet.jpg" width="1200" height="1200" alt="Kädet pellavalla, lyhyet mantelinmuotoiset nude-kynnet." loading="lazy">
+            <span>Kynnet <small>Nude</small></span>
+          </a>
+          <a class="shot square" href="images/kielo-kulmat.jpg" data-caption="Kulmien laminointi">
+            <img src="images/kielo-kulmat.jpg" width="1200" height="1200" alt="Lähikuva luonnollisesti muotoilluista kulmista." loading="lazy">
+            <span>Kulmat <small>Laminointi</small></span>
+          </a>
+          <a class="shot wide" href="images/kielo-ripset.jpg" data-caption="Klassinen ripsienpidennys">
+            <img src="images/kielo-ripset.jpg" width="1200" height="900" alt="Lähikuva silmästä, jossa on klassinen ripsienpidennys." loading="lazy">
+            <span>Ripset <small>Klassinen pidennys</small></span>
+          </a>
+          <a class="shot wide" href="images/kielo-jalat.jpg" data-caption="Pedikyyri">
+            <img src="images/kielo-jalat.jpg" width="1200" height="900" alt="Pedikyyri: luonnollinen lakkaus, pyyhe, vesikulho ja eukalyptus." loading="lazy">
+            <span>Pedikyyri <small>Kevyt lakkaus</small></span>
+          </a>
+          <p class="gallery-note">Jokainen työ tehdään rauhassa, yksi asiakas kerrallaan.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="varaus">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index-label">04 — Varausohjeet</p>
+          <h2>Näin varaat ajan.</h2>
+          <p class="lede">Soita, lähetä sähköpostia tai jätä pyyntö lomakkeella. Aika lukitaan vasta, kun olemme vahvistaneet sen.</p>
+        </header>
+        <div class="booking">
+          <div>
+            <ol class="steps">
+              <li>
+                <span class="step-no">01</span>
+                <div>
+                  <h3>Valitse palvelu</h3>
+                  <p>Katso palvelut ja hinnasto. Jos et ole varma hoidosta, soita — autamme valitsemaan.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-no">02</span>
+                <div>
+                  <h3>Pyydä aika</h3>
+                  <p>Soita numeroon 040 123 4567, lähetä viesti osoitteeseen hei@example.com tai täytä lomake. Kerro palvelu, toivottu päivä ja allergiat.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-no">03</span>
+                <div>
+                  <h3>Odota vahvistus</h3>
+                  <p>Vastaamme viimeistään seuraavana arkipäivänä. Aika on varattu vasta vahvistuksen jälkeen.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-no">04</span>
+                <div>
+                  <h3>Saavu hoitolaan</h3>
+                  <p>Tule noin viisi minuuttia ennen aikaa. Kasvohoitoon kannattaa tulla ilman meikkiä. Ovikello on nimellä Kielo, toinen kerros.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-no">05</span>
+                <div>
+                  <h3>Peruuta ajoissa</h3>
+                  <p>Siirrä tai peruuta viimeistään 24 tuntia ennen. Myöhemmin perutusta ajasta veloitamme puolet palvelun hinnasta. Jos este tulee samana päivänä, soita heti.</p>
+                </div>
+              </li>
+            </ol>
+            <aside class="callout">
+              <h3>Ennen käyntiä</h3>
+              <ul>
+                <li>Kerro raskaudesta, lääkityksestä ja allergioista jo varatessa.</li>
+                <li>Ripsienpidennyksen jälkeen vältä saunaa, höyryä ja vettä silmissä 24 tuntia. Saat kotihoito-ohjeet käynnillä.</li>
+                <li>Jalkahoito on kosmeettinen. Diabeteksen, haavojen tai ihottuman kanssa kysy ensin terveydenhuollosta.</li>
+                <li>Maksu paikan päällä: kortti, MobilePay tai käteinen.</li>
+              </ul>
+            </aside>
+          </div>
+          <form class="form" id="varauslomake" novalidate>
+            <h3 id="lomake-otsikko">Pyydä aika</h3>
+            <p class="fineprint">Tähdellä merkityt kentät ovat pakollisia.</p>
+            <noscript><p class="noscript-note">Lomake tarvitsee JavaScriptin. Soita tai lähetä sähköpostia.</p></noscript>
+            <div class="form-grid">
+              <div class="field">
+                <label for="varaus-nimi">Nimi *</label>
+                <input id="varaus-nimi" name="nimi" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="varaus-email">Sähköposti *</label>
+                <input id="varaus-email" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div class="field">
+                <label for="varaus-puhelin">Puhelin</label>
+                <input id="varaus-puhelin" name="puhelin" type="tel" autocomplete="tel" inputmode="tel">
+              </div>
+              <div class="field">
+                <label for="palvelu">Palvelu *</label>
+                <select id="palvelu" name="palvelu" required>
+                  <option value="">Valitse palvelu</option>
+                  <optgroup label="Hiukset">
+                    <option value="lyhyet-hiukset">Lyhyet hiukset</option>
+                    <option value="pitkat-hiukset">Pitkät hiukset</option>
+                    <option value="miesten-leikkaus">Miesten leikkaus</option>
+                    <option value="lasten-leikkaus">Lasten leikkaus</option>
+                    <option value="pesu-foonaus">Pesu ja föönaus</option>
+                    <option value="juhlakampaus">Juhlakampaus</option>
+                    <option value="tyvivarjays">Tyvivärjäys</option>
+                    <option value="koko-paa">Koko pään värjäys</option>
+                    <option value="raidat">Raidat</option>
+                    <option value="balayage">Balayage</option>
+                    <option value="savytys">Sävytys</option>
+                    <option value="hiuspohja">Hiuspohjan hoito</option>
+                  </optgroup>
+                  <optgroup label="Kynnet">
+                    <option value="manikyyri">Manikyyri</option>
+                    <option value="geelilakkaus">Geelilakkaus</option>
+                    <option value="rakennekynnet">Rakennekynnet</option>
+                    <option value="kynsien-huolto">Kynsien huolto</option>
+                    <option value="kynnen-korjaus">Kynnen korjaus</option>
+                  </optgroup>
+                  <optgroup label="Jalat">
+                    <option value="pedikyyri">Pedikyyri</option>
+                    <option value="jalkahoito">Jalkahoito</option>
+                    <option value="geelilakkaus-varpaat">Geelilakkaus varpaisiin</option>
+                  </optgroup>
+                  <optgroup label="Kasvot, ripset ja kulmat">
+                    <option value="peruskasvohoito">Peruskasvohoito</option>
+                    <option value="syvapuhdistava">Syväpuhdistava kasvohoito</option>
+                    <option value="anti-age">Anti-age kasvohoito</option>
+                    <option value="kulmien-muotoilu">Kulmien muotoilu</option>
+                    <option value="kulmien-varjays">Kulmien värjäys</option>
+                    <option value="kulmien-muotoilu-varjays">Kulmien muotoilu ja värjäys</option>
+                    <option value="kulmien-laminointi">Kulmien laminointi</option>
+                    <option value="ripsien-varjays">Ripsien värjäys</option>
+                    <option value="kestotaivutus">Ripsien kestotaivutus</option>
+                    <option value="klassinen-pidennys">Klassinen ripsienpidennys</option>
+                    <option value="volyymiripset">Volyymiripset</option>
+                    <option value="ripsien-huolto">Ripsien huolto</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="field">
+                <label for="varaus-paiva">Toivottu päivä</label>
+                <input id="varaus-paiva" name="paiva" type="date">
+              </div>
+              <div class="field">
+                <label for="varaus-aika">Ajankohta</label>
+                <select id="varaus-aika" name="ajankohta">
+                  <option value="ei-valia">Ei väliä</option>
+                  <option value="aamu">Aamu (10–12)</option>
+                  <option value="keskipaiva">Keskipäivä (12–15)</option>
+                  <option value="iltapaiva">Iltapäivä (15–19)</option>
+                </select>
+              </div>
+              <div class="field field-wide">
+                <label for="varaus-viesti">Toiveet ja allergiat</label>
+                <textarea id="varaus-viesti" name="viesti" rows="4"></textarea>
+              </div>
+            </div>
+            <p class="form-status" data-status role="status" aria-live="polite"></p>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Lähetä pyyntö</button>
+              <p class="fineprint">Peruutus viimeistään 24 tuntia ennen aikaa.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sijainti">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index-label">05 — Sijainti</p>
+          <h2>Löydät meidät Punavuoresta.</h2>
+          <p class="lede">Ovikello on nimellä Kielo. Hoitohuone on toisessa kerroksessa, sisäänkäynti kadulta.</p>
+        </header>
+        <div class="location">
+          <article class="address-card">
+            <h3>Käyntiosoite</h3>
+            <address>
+              Kauneushoitola Kielo<br>
+              Iso Roobertinkatu 22<br>
+              00120 Helsinki
+            </address>
+            <p>Raitiovaunu- ja bussipysäkit ovat Fredrikinkadulla, noin kolmen minuutin kävelymatka. Esimerkkiosoite esittelysivustolla.</p>
+            <p class="map-link"><a href="https://www.openstreetmap.org/?mlat=60.1629&amp;mlon=24.9408#map=17/60.1629/24.9408" target="_blank" rel="noopener noreferrer">Avaa kartta</a></p>
+          </article>
+          <div class="map-frame">
+            <iframe title="Kartta: Iso Roobertinkatu, Helsinki" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=24.9280%2C60.1570%2C24.9540%2C60.1690&amp;layer=mapnik&amp;marker=60.1629%2C24.9408"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="yhteystiedot">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index-label">06 — Yhteystiedot</p>
+          <h2>Ota yhteyttä.</h2>
+          <p class="lede">Ajanvaraus onnistuu puhelimella ja sähköpostilla. Yhteystiedot ovat esimerkkejä.</p>
+        </header>
+        <div class="contact-grid">
+          <div class="address-card">
+            <h3>Kielo</h3>
+            <p>Iso Roobertinkatu 22, 00120 Helsinki</p>
+            <a class="contact-line" href="tel:+358401234567"><span>Puhelin</span><strong>040 123 4567</strong></a>
+            <a class="contact-line" href="mailto:hei@example.com"><span>Sähköposti</span><strong>hei@example.com</strong></a>
+            <table class="hours">
+              <caption>Aukioloajat</caption>
+              <tbody>
+                <tr><th scope="row">Maanantai–perjantai</th><td>10–19</td></tr>
+                <tr><th scope="row">Lauantai</th><td>10–16</td></tr>
+                <tr><th scope="row">Sunnuntai</th><td>Suljettu</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <form class="form" id="viestilomake" novalidate>
+            <h3 id="viesti-otsikko">Lähetä viesti</h3>
+            <p class="fineprint">Kysymykset hoidoista ja lahjakorteista. Tähdellä merkityt kentät ovat pakollisia.</p>
+            <div class="form-grid">
+              <div class="field">
+                <label for="viesti-nimi">Nimi *</label>
+                <input id="viesti-nimi" name="nimi" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="viesti-email">Sähköposti *</label>
+                <input id="viesti-email" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div class="field field-wide">
+                <label for="viesti-teksti">Viesti *</label>
+                <textarea id="viesti-teksti" name="viesti" rows="5" required></textarea>
+              </div>
+            </div>
+            <p class="form-status" data-status role="status" aria-live="polite"></p>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Lähetä viesti</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <strong>Kielo</strong>
+          <p>Kampaamo ja kauneushoitola Punavuoressa.</p>
+        </div>
+        <nav aria-label="Alatunniste">
+          <a href="#palvelut">Palvelut</a>
+          <a href="#hinnasto">Hinnasto</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#varaus">Varausohjeet</a>
+          <a href="#sijainti">Sijainti</a>
+          <a href="#yhteystiedot">Yhteystiedot</a>
+        </nav>
+        <div>
+          <p>Iso Roobertinkatu 22<br>00120 Helsinki</p>
+          <p><a href="tel:+358401234567">040 123 4567</a><br><a href="mailto:hei@example.com">hei@example.com</a></p>
+          <p>Ma–pe 10–19 · la 10–16</p>
+        </div>
+      </div>
+      <p class="disclaimer">© <span data-year>2026</span> Kauneushoitola Kielo. Esittelysivusto: nimi, hinnat, osoite ja yhteystiedot ovat esimerkkejä, jotka voi vaihtaa omiin.</p>
+    </div>
+  </footer>
+
+  <dialog id="kuva">
+    <figure>
+      <button class="dialog-close" type="button">Sulje</button>
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+  </dialog>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
